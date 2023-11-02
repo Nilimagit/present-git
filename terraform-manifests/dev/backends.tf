@@ -10,7 +10,7 @@
 
 terraform {
   backend "s3" {
-    bucket = ""destin-bucket-aws
+    bucket = "destin-bucket-aws"
     key    = "terraformstates/dev.tfstate"
     region = "us-east-1"
   }
